@@ -1,9 +1,13 @@
 *{
   font-family: 'Electrolize', sans-serif;
-
+width: auto;
+margin:0px;
+padding: 0px;
 }
 body{
   background-color: black;
+  width: auto;
+  
 }
 :root{
   --main-color: #E8E247;
@@ -35,8 +39,7 @@ transition: 0.4s;
 
 
 .cabeza{
-  height: 100vh;
-  width: 100vw;
+
   background-image: linear-gradient(black,transparent), url('./img/rueda.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -67,6 +70,7 @@ transition: 0.4s;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  width: 100%;
 }
 .descript{
   background-image: linear-gradient(black,transparent,black);
